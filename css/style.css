@@ -337,6 +337,7 @@ footer{
     font-size: 0.9rem;
 }
 .footer_container{
+    margin-left: 1rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap:5rem;

@@ -143,7 +143,8 @@ header .header_container{
 /*Categories*/
 .categories{
     background-color: var(--color-bg1);
-    height: 35rem;
+    height: 40rem;
+    margin-bottom: 10rem;
 }
 
 .categories h1{
@@ -238,6 +239,7 @@ header .header_container{
     text-align: center;
     border:1px solid transparent;
     transition: var(--transition);
+ 
 }
 
 .course:hover{
@@ -251,8 +253,8 @@ header .header_container{
 
 .course_info p{
     margin:1.2rem 0 2rem;
-    font-size: 0.9rem;
-}
+    font-size: 0.9rem; 
+ } 
 
 /*FAQ's*/
 .faqs{
@@ -454,7 +456,8 @@ footer ul li:hover{
         margin-bottom: 4rem;
     }
 
-    .header_container{
+    header .header_container{
+        grid-template-columns: 1fr;
         gap:0;
         padding-bottom: 3rem;
 
@@ -509,7 +512,7 @@ footer ul li:hover{
         height: 100vh;
       
     }
-    .header_container{
+    header .header_container{
         grid-template-columns: 1fr;
         text-align: center;
         margin-top: 2rem;

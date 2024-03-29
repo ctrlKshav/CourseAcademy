@@ -69,6 +69,7 @@
 }
 
 .team_member img{
+    height: 17rem;
     filter: saturate(0.2);
 }
 

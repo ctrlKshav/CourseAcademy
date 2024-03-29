@@ -53,7 +53,7 @@ form .btn{
     width: max-content;
     cursor: pointer;
     margin-top: 1rem;
-    
+
 }
 input,textarea{
     width: 100%;
@@ -61,4 +61,53 @@ input,textarea{
     color: white;
     background-color: var(--color-bg);
 
+}
+
+@media screen and (max-width:1024px) {
+    /* body{background-color: red;} */
+    .contact_container{
+        gap: 1.5rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+    .contact_aside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+    form{
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    /* body{background-color: red;} */
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+        padding: 0;
+    }
+    .contact_aside{
+        margin: 0 1.5rem 1rem;
+        /* width: auto;
+        padding: 1.5rem;
+        bottom: 0; */
+    }
+    .form_name{
+
+        flex-direction: column;
+    }
+    .form_name input[type='text']{
+        width: 100%;
+
+    }
+    form{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    
 }
